@@ -1,0 +1,6 @@
+-   id: dep-check
+    name: 'dep-check'
+    entry: run-dep-check.sh
+    files: '\.go$'
+    language: 'script'
+    description: "Runs `dep check`, ensuring all imports are vendored"
