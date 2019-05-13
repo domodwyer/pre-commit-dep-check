@@ -1,6 +1,8 @@
 -   id: dep-check
     name: 'dep-check'
     entry: run-dep-check.sh
-    files: '\.go$'
+    types: [go]
     language: 'script'
+    pass_filenames: false
+    minimum_pre_commit_version: 0.15.0
     description: "Runs `dep check`, ensuring all imports are vendored"
