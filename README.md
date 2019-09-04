@@ -1,4 +1,10 @@
-# pre-commit-dep-check
+# Deprecated
+
+This was moved into https://github.com/domodwyer/pre-commit
+
+---
+
+## pre-commit-dep-check
 
 This is a [`pre-commit`] hook that runs `dep check` on your repo (see [dep]).
 
